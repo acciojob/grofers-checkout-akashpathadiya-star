@@ -6,7 +6,7 @@ const getSum = () => {
 //Add your code here
 	let rates = document.querySelectorAll(".price");
 	let total = 0;
-	for(let i=0;i<prices.length;i++){
+	for(let i=0;i<rates.length;i++){
 		total+=Number(rates[i].textContent)	
 	}
 	let tr = document.createElement("tr");
