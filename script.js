@@ -13,6 +13,6 @@ const getSum = () => {
 	let td = document.createElement("td");
 	td.textContent=total;
 	tr.append(td);
-};
 document.querySelector("table").append(tr);
+}
 getSumBtn.addEventListener("click", getSum);
